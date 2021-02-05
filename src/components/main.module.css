@@ -1,0 +1,155 @@
+.nav {
+  display: flex;
+  width: 100%;
+  background: #4e4e4e;
+  color: #ff4a4a;
+}
+
+.label {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.label span {
+  margin-right: 10px;
+}
+
+.util {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 2;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.about {
+  cursor: pointer;
+}
+
+.services {
+  cursor: pointer;
+}
+
+.signup {
+  cursor: pointer;
+}
+
+.inp {
+  background: rgb(24, 24, 24, 0.6);
+  border-radius: 10px;
+  border: none;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.search {
+  width: 25%;
+}
+
+.searchbtn {
+  background: rgba(24, 24, 24, 0.3);
+  border: 2px solid #ff4a4a;
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 28%;
+  height: 35px;
+  color: #ff4a4a;
+}
+
+.desc {
+  color: #efb6b2;
+  margin-top: 30px;
+}
+
+.desc h1 {
+  font-size: 60px;
+}
+
+.main {
+  font-family: "raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formdiv {
+  width: 80%;
+  text-align: center;
+  vertical-align: center;
+}
+
+.output {
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.takefile {
+  display: none;
+}
+
+.progress {
+  width: 100%;
+  background: #44ff44;
+  height: 10px;
+  border-radius: 5px;
+  animation: 0.8s all;
+  margin-top: 10px;
+}
+
+.imgrid {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.image {
+  overflow: hidden;
+  padding: 50% auto;
+  opacity: 0.8;
+}
+
+.image img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+}
+
+.plus {
+  font-size: 80px;
+  color: #efb6b2;
+  font-weight: bold;
+  border: 1px solid #ff4a4a;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.uploaddiv {
+  width: 8%;
+}
+
+.plus:hover {
+  background: #efb6b2;
+  color: white;
+}
